@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                      <Component id="label" min="-2" pref="394" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="taBortAgentButton" alignment="0" min="-2" pref="463" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="taBortAlien" max="32767" attributes="0"/>
+                              <Component id="taBortUtrustning" alignment="0" max="32767" attributes="0"/>
+                              <Component id="andraAgentButton" alignment="0" pref="463" max="32767" attributes="0"/>
+                              <Component id="regAlienButton" alignment="0" max="32767" attributes="0"/>
+                              <Component id="andraInfAlien" alignment="0" max="32767" attributes="0"/>
+                              <Component id="laggTillAgentButton" alignment="0" max="32767" attributes="0"/>
+                              <Component id="geAdmin" max="32767" attributes="0"/>
+                              <Component id="seInformation" max="32767" attributes="0"/>
+                              <Component id="andraOmradesChef" alignment="0" max="32767" attributes="0"/>
+                              <Component id="andraKontorsChef" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="119" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="label" min="-2" pref="106" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="regAlienButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="andraInfAlien" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="laggTillAgentButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="andraAgentButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="seInformation" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="taBortAlien" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="geAdmin" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="taBortUtrustning" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="andraOmradesChef" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="andraKontorsChef" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="taBortAgentButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="37" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="label">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="regAlienButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registrera Alien"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="regAlienButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="andraInfAlien">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc4;ndra information p&#xe5; Alien"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="andraInfAlienActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="laggTillAgentButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registrera Agent"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="laggTillAgentButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="andraAgentButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc4;ndra information p&#xe5; Agent"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="andraAgentButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="taBortAlien">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ta bort alien"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="taBortAlienActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="taBortUtrustning">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ta bort utrustning"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="taBortUtrustningActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="geAdmin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ge Agent admin status"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geAdminActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="seInformation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Se information p&#xe5; Agent"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seInformationActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="andraOmradesChef">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc4;ndra omr&#xe5;deschef"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="andraOmradesChefActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="andraKontorsChef">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc4;ndra kontorschef"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="andraKontorsChefActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="taBortAgentButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ta Bort Agent"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="taBortAgentButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
